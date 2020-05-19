@@ -1,5 +1,7 @@
 body {
-  background-color: #393e46;
+  background-image: url(./images/backgrounddices.jpg);
+  background-position: right;
+  background-size: cover;
 }
 
 #main {
@@ -72,19 +74,22 @@ p {
 
 .btn {
   background-color: darkred;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 1px #fff;
 }
 
 .btn a {
   font-family: 'Courier New', Courier, monospace;
-
   color: #fff;
+  font-size: 2rem;
+
   text-decoration: none;
 }
 
 .btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .btn:active {
-  transform: scale(0.9);
+  transform: scale(1);
 }

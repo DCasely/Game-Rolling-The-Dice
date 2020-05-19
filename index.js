@@ -1,4 +1,4 @@
-document.querySelector('body').addEventListener('click', function () {
+document.querySelector('.btn').addEventListener('click', function () {
   rollDice();
   rollDice2();
 
